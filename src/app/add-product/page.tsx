@@ -27,7 +27,7 @@ async function addProduct(formData: FormData) {
     },
   });
 
-  //   redirect("/");
+  redirect("/");
 }
 
 export default function AddProductPage() {
