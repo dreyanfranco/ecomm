@@ -37,7 +37,7 @@ export default function Pagination({
           Page {currentPage}
         </button>
         {currentPage < totalPages && (
-          <Link href={`?page=${currentPage - 1}`} className="btn join-item">
+          <Link href={`?page=${currentPage + 1}`} className="btn join-item">
             »
           </Link>
         )}
